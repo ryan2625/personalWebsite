@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    position: relative;
+}
+
+#icon{
+    width: fit-content;
+    color: white;
+    position: relative;
+    left: -6px;
+    top: 3px;
+    transform: scale(1.3);
+}
+.firstNav{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+a::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    width:0;
+    bottom: 0;
+    height: 3px;
+    background-color: red;
+    bottom: -1px;
+    background-image: linear-gradient(159deg, rgba(12,9,10,1) 0%, rgba(11,10,13,1) 40%, rgba(1,52,150,1) 88%);;
+    transition: width 0.3s ease-out;
+    z-index: 1;
+}
+
+a:hover::before{
+    width: 100%;
+    left: 0;
+    right: auto;
+    box-shadow: 0px 0px 15px 5px #5792ff8d;
+}
+
+
+
+#delivery{
+    white-space: nowrap;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 2rem;
+    border: 1px solid black;
+    margin-top: 1.25em;
+    padding: .5rem 2rem .5rem 2rem;
+    box-shadow: 5px 5px rgb(149, 149, 149);
+    transition: background-color .5s ease-in-out,
+    box-shadow .8s ease, color .5s ease-in-out;
+}
+
+#delivery:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    box-shadow: -7px -7px red;
+    transition: border .5s, box-shadow .7s ease, background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+#name{
+    align-self: center;
+    flex-shrink: 0;
+    color: var(--text);
+    font-family: v ;
+}
+
+.header{
+    display: flex;
+    background: var(--main);
+    flex-basis: 20%;
+    margin-left: 5rem;
+    flex-shrink: 0;
+}
+
+.navBar{  
+    flex-basis: 100%;
+    display: flex;
+    height: 80px;
+    background: rgb(12,9,10);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.553);
+    border-radius: 3%;
+}
+
+.quickLinks{
+    display: flex;
+    align-items: center;
+    background: rgb(12,9,10);
+    background: linear-gradient(159deg, rgba(12,9,10,1) 0%, rgba(11,10,13,1) 25%, rgba(1,52,150,1) 88%);
+    flex-basis: 80%;
+    position: relative;
+    justify-content: flex-end;
+}
+
+ul{
+    position: absolute;
+    display: flex;
+    flex-basis: 100%;
+    margin-right: 8rem;
+    gap: 20px;
+}
+
+li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
