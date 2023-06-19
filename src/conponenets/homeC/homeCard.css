@@ -1,13 +1,14 @@
 .homeCardContainer{
     display: flex;
     flex-shrink: 0;
-    background-color: white;
     height: 100%;
     width: 100%;
     position: relative;
     background-color: black;
     justify-content: center;
     border-right: 2px solid rgba(255, 255, 255, 0.092);
+    background: rgb(12,9,10);
+    background: linear-gradient(55deg, rgba(12,9,10,1) 17%, rgba(1,52,150,1) 36%, rgba(0,0,0,1) 46%);
 }
 
 .image{
