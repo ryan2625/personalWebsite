@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
 }
-
 
 a {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    padding: 1rem;
+    padding: .75rem;
     display: inline-block;
     position: relative;
 }
@@ -28,7 +30,8 @@ a {
     position: relative;
 }
 
-a::before{
+.effect::before{
+    box-sizing: content-box;
     content: "";
     position: absolute;
     right: 0;
@@ -37,50 +40,27 @@ a::before{
     height: 3px;
     background-color: red;
     bottom: -1px;
-    background-image: linear-gradient(159deg, rgba(12,9,10,1) 0%, rgba(11,10,13,1) 40%, rgba(1,52,150,1) 88%);;
-    transition: width 0.3s ease-out;
+    background-image:  linear-gradient(74deg, rgba(255,255,255,1) 0%, rgba(44,84,255,1) 100%);
+    transition: width 0.4s ease-out;
     z-index: 1;
 }
 
-a:hover::before{
+.effect:hover::before{
     width: 100%;
     left: 0;
     right: auto;
-    box-shadow: 0px 0px 15px 5px #5792ff8d;
-}
-
-#delivery{
-    white-space: nowrap;
-    text-align: center;
-    background-color: black;
-    color: white;
-    height: 2rem;
-    border: 1px solid black;
-    margin-top: 1.25em;
-    padding: .5rem 2rem .5rem 2rem;
-    box-shadow: 5px 5px rgb(149, 149, 149);
-    transition: background-color .5s ease-in-out,
-    box-shadow .8s ease, color .5s ease-in-out;
-}
-
-#delivery:hover{
-    color: red;
-    background-color: white;
-    border: 1px solid red;
-    box-shadow: -7px -7px red;
-    transition: border .5s, box-shadow .7s ease, background-color .5s ease-in-out, color .5s ease-in-out;
+    box-shadow: 0px 0px 15px 10px #71a3ff8d;
 }
 
 #name{
     align-self: center;
     flex-shrink: 0;
     color: var(--text);
-    font-family: v ;
 }
 
 .header{
     display: flex;
-    background: var(--main);
+    background: black;
     flex-basis: 20%;
     margin-left: 5rem;
     flex-shrink: 0;
@@ -90,7 +70,7 @@ a:hover::before{
     flex-basis: 100%;
     display: flex;
     height: 80px;
-    background: rgb(12,9,10);
+    background: rgb(0, 0, 0);
     border-bottom: 2px solid rgba(255, 255, 255, 0.17);
     border-radius: 3%;
 }
@@ -99,7 +79,7 @@ a:hover::before{
     display: flex;
     align-items: center;
     background: rgb(12,9,10);
-    background: linear-gradient(159deg, rgba(12,9,10,1) 0%, rgba(11,10,13,1) 25%, rgba(1,52,150,1) 88%);
+    background: linear-gradient(159deg, rgb(0, 0, 0) 25%, rgba(1,52,150,1) 88%);
     flex-basis: 80%;
     position: relative;
     justify-content: flex-end;
@@ -111,6 +91,7 @@ ul{
     flex-basis: 100%;
     margin-right: 8rem;
     gap: 20px;
+    
 }
 
 li{

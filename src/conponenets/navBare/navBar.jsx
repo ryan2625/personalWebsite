@@ -14,19 +14,19 @@ export const Navbar = () =>{
         </div>
         <div className="quickLinks">
             <ul>
-                <NavLink to="/">
+                <NavLink className={"effect"} to="/">
                      <li>Home</li>
                 </NavLink>
-                <NavLink to="/projects">
+                <NavLink className={"effect"} to="/projects">
                     <li>Projects</li>
                 </NavLink>
-                <NavLink to="/contacts">
+                <NavLink className={"effect"}  to="/contacts">
                     <li>Contact</li>
                 </NavLink>
-                <NavLink to="/futureDev">
+                <NavLink className={"effect"} to="/futureDev">
                     <li>Future Developments</li>
                 </NavLink>
-                <NavLink to="/blog">
+                <NavLink className={"effect"} to="/blog">
                     <li>Blog</li>
                 </NavLink>
             </ul>

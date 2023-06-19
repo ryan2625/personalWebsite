@@ -1,0 +1,54 @@
+
+
+.coding{
+    position: relative;
+    background-color: blue;
+    height: calc(50vh - 40px);
+    display: flex;
+    align-items: center;
+    background-image: url("reactJS2.jpg");
+    background-size: contain;
+}
+
+.coding:hover{
+    filter: brightness(170%);
+}
+
+.research:hover{
+    filter: brightness(170%);
+}
+
+.research{
+    position: relative;
+    height: calc(50vh - 40px);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    background-image: url("research.png");
+    background-size:auto;
+}
+
+.headings{ 
+    padding: 2rem;
+    margin:0 auto;
+    display: block;
+}
+
+.headings:hover{
+    background-color: #0135964a;
+    border-radius: 30%;
+}
+
+
+
+.navLinkProjects{
+    text-decoration: none;
+    display: block;
+    color: var(--text);
+}
+
+
+
+
+
+    

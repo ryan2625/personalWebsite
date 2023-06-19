@@ -1,12 +1,14 @@
 import { BrowserRouter, Route, Routes, useLocation} from 'react-router-dom';
 import React from 'react';
 import './App.css';
-import { Home } from './conponenets/homeC/Home';
+import { Home } from './conponenets/homeComponent/Home';
 import { Contacts } from './conponenets/Contact';
-import { Projects } from './conponenets/Projects';
+import { Projects } from './conponenets/projectsComponents/Projects';
 import { Navbar } from './conponenets/navBare/navBar';
 import { Blog } from './conponenets/Blog';
 import { FutureDev } from './conponenets/Other';
+import { Research } from './conponenets/projectsComponents/researchComponent/Research';
+import { Coding } from './conponenets/projectsComponents/codingComponent/Coding';
 function App() {
 
 
@@ -21,6 +23,8 @@ function App() {
               <Route path="/projects" element={<Projects/>}/>
               <Route path="/futureDev" element={<FutureDev/>}/>
               <Route path="/blog" element={<Blog/>}/>
+              <Route path="/coding" element={<Coding/>}/>
+              <Route path="/research" element={<Research/>}/>
           </Routes>
       </BrowserRouter>
     </div>
