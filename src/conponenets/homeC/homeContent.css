@@ -2,7 +2,9 @@ body{
     background-color: var(--main);
 }
 
-
+.home{
+    display: flex;
+}
 
 #namer{
     animation: fadeIn 5s;
@@ -12,15 +14,4 @@ body{
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-
-  .homeContainer{
-    display: flex;
-}
   
-.homeCard{
-    flex-basis: 40%;
-    height: calc(100vh - 82px);
-}
-.homeContent{
-    flex-basis: 60%;
-}

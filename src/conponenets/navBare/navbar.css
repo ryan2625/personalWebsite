@@ -49,8 +49,6 @@ a:hover::before{
     box-shadow: 0px 0px 15px 5px #5792ff8d;
 }
 
-
-
 #delivery{
     white-space: nowrap;
     text-align: center;
@@ -93,7 +91,7 @@ a:hover::before{
     display: flex;
     height: 80px;
     background: rgb(12,9,10);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.553);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.17);
     border-radius: 3%;
 }
 

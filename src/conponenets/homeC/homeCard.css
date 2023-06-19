@@ -1,0 +1,43 @@
+.homeCardContainer{
+    display: flex;
+    flex-shrink: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    justify-content: center;
+    border-right: 2px solid rgba(255, 255, 255, 0.092);
+}
+
+.image{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    min-width: 297px;
+    min-height: 833px;
+    max-width: 550px;
+    background-image: url("finalPic.jpg"); 
+    background-size: cover;
+    position: absolute;
+    transform: scale(.9);
+    animation: fadeIn 3s;
+    flex-grow:0;
+    flex-shrink: 0;
+    animation: fadeIn 5s;
+    filter: brightness(90%);
+}
+
+@media (min-width: 1200px){
+    .image{
+        background-image: url("resize2.png");
+        width: 490px;
+        
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
