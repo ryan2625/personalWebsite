@@ -6,6 +6,11 @@ body{
     display: flex;
 }
 
+.homeCardContainer{
+    background: rgb(12,9,10);
+background: linear-gradient(55deg, rgba(12,9,10,1) 17%, rgba(1,52,150,1) 36%, rgba(0,0,0,1) 46%);
+}
+
 #namer{
     animation: fadeIn 5s;
 }

@@ -17,7 +17,7 @@
     min-width: 297px;
     min-height: 833px;
     max-width: 550px;
-    background-image: url("finalPic.jpg"); 
+    background-image: url("finalPhoto.png"); 
     background-size: cover;
     position: absolute;
     transform: scale(.9);
@@ -30,7 +30,7 @@
 
 @media (min-width: 1200px){
     .image{
-        background-image: url("resize2.png");
+        background-image: url("finalPhotoResize.png");
         width: 490px;
         
     }
