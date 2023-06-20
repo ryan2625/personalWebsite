@@ -16,7 +16,6 @@ export const Coding = () =>{
                     powered by ReactJs.
                 </div>
            </div>
-            </div>
 
             <div className="project schedule">
                 <h1 className="title">
@@ -46,6 +45,6 @@ export const Coding = () =>{
                     device's capabilities.
                 </div>
             </div>
-
+        </div>
     </>
 }
