@@ -1,0 +1,61 @@
+.codingContainerProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    min-width: 1000px;
+    background-color: black;
+    align-self: center;
+    flex-basis: 60%;
+    margin: 2rem;
+    padding: .5rem;
+    border: 2px solid var(--secondaryTertiary);
+    border-radius: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    flex-basis: 100%;
+    align-content: center;
+    display: flex;
+    height: 20%;
+    text-decoration: underline;
+    text-decoration-color:  rgba(44,84,255,1);
+}
+
+.img1{
+    background-image: url("./schedulePictures/schedulizer.png");
+}
+
+.description{
+    flex-basis: 55%;
+    max-height: 310px;
+    font-size: x-large;
+    outline: 1px solid var(--text);
+}
+
+.imageRules{
+    flex-basis: 40%;
+    max-width: 600px;
+    height: 310px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    outline: 1px solid var(--text);
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.img2{
+    background-image: url("./fitnessPics/nightHawkFitness.png");
+}
+
+.img3{
+    background-image: url("./tapStrapPiccs/tapStrap2.png");
+}

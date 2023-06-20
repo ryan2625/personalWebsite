@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
-  font-family: 'MuseoModerno', cursive;
-  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -14,7 +14,8 @@ body{
 :root{
   --main: #0c090a;
   --secondaryMain:#3d3d3d;
-  --text:#F4F4F4;
+  --textSecondary:rgb(243, 243, 243);
+  --text:#aeaeae;
   --tertiary:#001743;
   --secondaryTertiary:#013496;
   --headerBack:#68686828;

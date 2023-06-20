@@ -9,7 +9,7 @@
 }
 
 .coding:hover{
-    filter: brightness(170%);
+    filter: brightness(180%);
 }
 
 .research:hover{
@@ -30,11 +30,13 @@
     padding: 2rem;
     margin:0 auto;
     display: block;
+    transition: 1s background-color;
+    border-radius: 30%;
 }
 
 .headings:hover{
-    background-color: #00000061;
-    border-radius: 30%;
+    transition: .5s background-color;
+    background-color: #000000a1;
 }
 
 .navLinkProjects{

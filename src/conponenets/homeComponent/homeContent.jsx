@@ -13,7 +13,7 @@ export const HomeContent = () =>{
 
          <div className="a1 right">
             <h4 className="aRight">
-                 My name is Ryan and I recently graduated from Augustana college with my B.A. in computer science.
+                 Hey there, my name is Ryan and I recently graduated from Augustana college with my B.A. in computer science.
             </h4>
         </div>
 
