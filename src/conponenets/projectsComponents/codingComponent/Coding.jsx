@@ -40,7 +40,7 @@ export const Coding = () =>{
                 <div className="fontSelect description desc1"> 
                     During Winter of 2022, I took the special topics course named "Human Computer Interaction."
                     In this class, I created special interactions with a handheld keyboard
-                    named the "Tap-Strap 2" via the manufacturers software development kit. I also 
+                    named the Tap-Strap 2" via the manufacturers software development kit. I also 
                     worked with the python library "Tkinter" to create a GUI to show off the 
                     device's capabilities.
                 </div>
