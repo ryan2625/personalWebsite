@@ -1,5 +1,3 @@
-
-
 .coding{
     position: relative;
     background-color: blue;
@@ -35,11 +33,9 @@
 }
 
 .headings:hover{
-    background-color: #0135964a;
+    background-color: #00000061;
     border-radius: 30%;
 }
-
-
 
 .navLinkProjects{
     text-decoration: none;
@@ -47,8 +43,14 @@
     color: var(--text);
 }
 
+.containerProjects{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
 
+.navLinkProjects{
+    margin: 0;
+    padding: 0;
+}
 
-
-
-    
