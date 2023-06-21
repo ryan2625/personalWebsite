@@ -25,7 +25,7 @@ export const HomeContent = () =>{
 
         <div className="a2 right">
             <h4 className="aRight">
-                I am proficient in  React, and have experience in Javascript, CSS, and HTML. I also have some experience in Python and Java as well and I am always excited to learn somethign  new.
+                I am proficient in  React, and have experience in Javascript, CSS, and HTML. I also have some experience in Python and Java as well and I'm excited to see what I'll learn next.
             </h4>
         </div>
 
@@ -42,7 +42,7 @@ export const HomeContent = () =>{
         </div>
     </div>
     <NavLink className="navLink1" to="/contacts">
-        <button>LET'S TALK</button>
+        <button className="button1">LET'S TALK</button>
     </NavLink>
     </div>
 }

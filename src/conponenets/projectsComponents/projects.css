@@ -37,6 +37,7 @@
 .headings:hover{
     transition: .5s background-color;
     background-color: #000000a1;
+    backdrop-filter: blur(3px);
 }
 
 .navLinkProjects{

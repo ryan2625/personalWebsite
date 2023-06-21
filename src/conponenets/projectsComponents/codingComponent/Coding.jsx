@@ -1,4 +1,5 @@
 import "./Coding.css"
+import EastIcon from '@mui/icons-material/East';
 export const Coding = () =>{
     return<>
     <div className="codingContainerProjects">
@@ -16,10 +17,12 @@ export const Coding = () =>{
                     powered by ReactJs.
                 </div>
                 <div className="technologiesUsed">
+                <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
                         <h1 className="react">React</h1>  
                         <h1 className="css">CSS</h1>
                         <h1 className="HTML">HTML</h1>
                         <h1 className="javaScript">Javascript</h1>
+                        <h1 className="fireBase">Firebase</h1>
                     </div>
            </div>
 
@@ -35,7 +38,8 @@ export const Coding = () =>{
                 was coded in Java (utilizing the JavaFX library) and had some CSS styling as well.
                 </div>
                 <div className="technologiesUsed">
-                        <h1 className="python">Python</h1>
+                <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
+                        <h1 className="java">Java</h1>
                         <h1 className="css">CSS</h1>
                     </div>
            </div>
@@ -45,7 +49,7 @@ export const Coding = () =>{
    
             <div className="project tapStrap ">
                 <h1 className="title">
-                   The Tap Strap 2 and HCI 
+                   Human Computer Interactions: Tap-Strap 2
                 </h1>
                 <div className="imageRules img3"></div>
                 <div className="fontSelect description desc1"> 
@@ -57,6 +61,7 @@ export const Coding = () =>{
                     
                 </div>
                 <div className="technologiesUsed">
+                <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
                         <h1 className="python">Python</h1>
                         <h1 className="css">CSS</h1>
                         <h1 className="machineLearning">Machine Learning</h1>

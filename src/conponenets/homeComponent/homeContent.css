@@ -13,15 +13,23 @@ h4{
     margin:0 auto;
     margin-top: 2rem;
     display: block;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color:  rgba(44,84,255,1);
 }
 
-.introa:hover{
-    box-shadow: 5px 5px var(--secondaryTertiary);
-    transition: background-color .5s ease-in-out,
-    box-shadow .8s ease, color .5s ease-in-out;
-    border: 1px solid var(--secondaryTertiary);
+.intro::before{
+    box-sizing: content-box;
+    position: absolute;
+    right: 0;
+    width:0;
+    bottom: 0;
+    height: 3px;
+    bottom: -1px;
+    background-image:  linear-gradient(74deg, rgba(255,255,255,1) 0%, rgba(44,84,255,1) 100%);
+    transition: width 0.4s ease-out;
+    z-index: 1;
 }
-
 
 .homeContainer2 :nth-child(4){
     height: 158px;
@@ -142,7 +150,7 @@ h4{
     animation: none !important;
   }
 
-  button{
+  .button1{
     background-color: rgb(225, 225, 225);
     font-size: large;
     width: 150px;
@@ -155,7 +163,7 @@ h4{
     border: 1px solid var(--secondaryTertiary);
 }
 
-button:hover{
+.button1:hover{
     color: var(--text);
     background-color: var(--secondaryTertiary);
     border: 1px solid var(--text);
