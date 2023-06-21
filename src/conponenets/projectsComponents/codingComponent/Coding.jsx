@@ -15,6 +15,12 @@ export const Coding = () =>{
                     fitness based web app. This app handled user data with Firebase and was
                     powered by ReactJs.
                 </div>
+                <div className="technologiesUsed">
+                        <h1 className="react">React</h1>  
+                        <h1 className="css">CSS</h1>
+                        <h1 className="HTML">HTML</h1>
+                        <h1 className="javaScript">Javascript</h1>
+                    </div>
            </div>
 
             <div className="project schedule">
@@ -26,7 +32,12 @@ export const Coding = () =>{
                 other students were tasked to create a multi-faceted app
                 that could allow students to register, drop, and visualize
                 the courses they were taking during the school year. This app
-                was coded in Java (utilizing the JavaFX library) and had some CSS styling as well.</div>
+                was coded in Java (utilizing the JavaFX library) and had some CSS styling as well.
+                </div>
+                <div className="technologiesUsed">
+                        <h1 className="python">Python</h1>
+                        <h1 className="css">CSS</h1>
+                    </div>
            </div>
 
 
@@ -43,8 +54,15 @@ export const Coding = () =>{
                     named the Tap-Strap 2" via the manufacturers software development kit. I also 
                     worked with the python library "Tkinter" to create a GUI to show off the 
                     device's capabilities.
+                    
                 </div>
+                <div className="technologiesUsed">
+                        <h1 className="python">Python</h1>
+                        <h1 className="css">CSS</h1>
+                        <h1 className="machineLearning">Machine Learning</h1>
+                    </div>
             </div>
+
         </div>
     </>
 }

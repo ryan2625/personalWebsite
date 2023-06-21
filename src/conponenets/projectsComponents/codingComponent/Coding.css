@@ -36,15 +36,17 @@
 
 .description{
     flex-basis: 55%;
-    max-height: 310px;
+    max-height: 350px;
     font-size: x-large;
     outline: 1px solid var(--text);
+    position: relative;
+    padding: .25rem;
 }
 
 .imageRules{
     flex-basis: 40%;
     max-width: 600px;
-    height: 310px;
+    height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 2rem;
@@ -59,4 +61,53 @@
 
 .img3{
     background-image: url("./tapStrapPiccs/tapStrap2.png");
+}
+
+.technologiesUsed{
+    flex-basis: 100%;
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+}
+
+.technologiesUsed > *{
+    padding: .75rem 1.5rem .75rem 1.45rem;
+    margin-right: 1rem;
+    border-radius: 200px;
+    font-size: larger;
+    font-style: italic;
+}
+
+.technologiesUsed > *:hover{
+    filter: brightness(160%);
+    animation: filter 2s;
+}
+
+.react{
+    background-color: var(--secondaryTertiary);
+}
+
+.python{
+    background-color: green;
+}
+
+.java{
+    background-color: red;
+}
+
+.css{
+    background-color: blue;
+}
+
+.HTML{
+    background-color: rgb(130, 84, 0);
+}
+
+.javaScript{
+    background-color: rgba(255, 255, 2, 0.516);
+}
+
+.machineLearning{
+    background-color: steelblue;
 }
