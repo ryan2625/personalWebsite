@@ -1,8 +1,11 @@
 import "./Research.css"
+import { NavLink } from "react-router-dom"
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 export const Research = () =>{
     return<>
     <div className="codingContainerProjects">
-
+    <div className="companion"></div>
+    <NavLink to="/projects"><ArrowBackIosIcon className="exit"></ArrowBackIosIcon></NavLink>
     <div className="project">
                 <h1 className="title">
                     Cybersecurity: An Analysis on Network Attacks

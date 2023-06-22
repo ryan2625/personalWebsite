@@ -1,9 +1,13 @@
 import "./Coding.css"
+import { NavLink } from "react-router-dom";
 import EastIcon from '@mui/icons-material/East';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import GitHubIcon from '@mui/icons-material/GitHub';
 export const Coding = () =>{
     return<>
     <div className="codingContainerProjects">
-
+        <div className="companion"></div>
+        <NavLink to="/projects"><ArrowBackIosIcon className="exit"></ArrowBackIosIcon></NavLink>
     <div className="project fitness ">
                 <h1 className="title">
                     NightHawk Fitness: Senior Inquiry
@@ -17,13 +21,14 @@ export const Coding = () =>{
                     powered by ReactJs.
                 </div>
                 <div className="technologiesUsed">
-                <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
+                <a href="https://github.com/AugustanaCSC490Spring23/Nighthawk-Fitness" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>
                         <h1 className="react">React</h1>  
                         <h1 className="css">CSS</h1>
                         <h1 className="HTML">HTML</h1>
                         <h1 className="javaScript">Javascript</h1>
                         <h1 className="fireBase">Firebase</h1>
                     </div>
+                    <NavLink to="/nightHawk" className={"naver"}><button className="readMore">Read More<EastIcon className="eastIcon"/></button></NavLink>
            </div>
 
             <div className="project schedule">
@@ -38,10 +43,11 @@ export const Coding = () =>{
                 was coded in Java (utilizing the JavaFX library) and had some CSS styling as well.
                 </div>
                 <div className="technologiesUsed">
-                <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
+                <a href="https://github.com/ryan2625/schedule-visualizer" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>
                         <h1 className="java">Java</h1>
                         <h1 className="css">CSS</h1>
                     </div>
+                    <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
            </div>
 
 
@@ -61,11 +67,12 @@ export const Coding = () =>{
                     
                 </div>
                 <div className="technologiesUsed">
-                <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
+                <a href="https://github.com/ryan2625/Extensibility" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>
                         <h1 className="python">Python</h1>
                         <h1 className="css">CSS</h1>
                         <h1 className="machineLearning">Machine Learning</h1>
                     </div>
+                    <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
             </div>
 
         </div>

@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-a {
+.effect{
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -98,4 +98,5 @@ li{
     color: white;
     text-decoration: none;
     list-style: none;
+
 }

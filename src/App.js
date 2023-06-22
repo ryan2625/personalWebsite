@@ -9,6 +9,8 @@ import { Blog } from './conponenets/Blog';
 import { FutureDev } from './conponenets/Other';
 import { Research } from './conponenets/projectsComponents/researchComponent/Research';
 import { Coding } from './conponenets/projectsComponents/codingComponent/Coding';
+import { Nhawk } from './conponenets/projectsComponents/codingComponent/nightHawkFitness/hawkPicture';
+import { HawkContainer } from './conponenets/projectsComponents/codingComponent/nightHawkFitness/hawkContainer';
 function App() {
 
 
@@ -25,6 +27,7 @@ function App() {
               <Route path="/blog" element={<Blog/>}/>
               <Route path="/coding" element={<Coding/>}/>
               <Route path="/research" element={<Research/>}/>
+              <Route path="/nightHawk" element={<HawkContainer/>}/>
           </Routes>
       </BrowserRouter>
     </div>

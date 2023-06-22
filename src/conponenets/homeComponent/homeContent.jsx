@@ -19,13 +19,13 @@ export const HomeContent = () =>{
 
         <div className="q2 left">
             <h1 className="qLeft">
-                What technologies do you know?
+                What skills do you have?
             </h1>
         </div>
 
         <div className="a2 right">
             <h4 className="aRight">
-                I am proficient in  React, and have experience in Javascript, CSS, and HTML. I also have some experience in Python and Java as well and I'm excited to see what I'll learn next.
+                I am proficient in  React, and have experience in Javascript, CSS, and HTML. I have some experience in Python and Java as well and I'm excited to see what I'll learn next.
             </h4>
         </div>
 
