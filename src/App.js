@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes, useLocation} from 'react-router-dom';
 import React from 'react';
 import './App.css';
 import { Home } from './conponenets/homeComponent/Home';
-import { Contacts } from './conponenets/Contact';
+import { Contacts } from './conponenets/contact/Contact';
 import { Projects } from './conponenets/projectsComponents/Projects';
 import { Navbar } from './conponenets/navBare/navBar';
 import { Blog } from './conponenets/Blog';
