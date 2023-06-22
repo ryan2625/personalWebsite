@@ -19,7 +19,6 @@
     flex-wrap: wrap;
     position: relative;
     background: linear-gradient(159deg, rgb(0, 0, 0) 25%, rgba(1,52,150,1) 88%);
-    
 }
 
 .title{
@@ -177,8 +176,12 @@
     position: absolute;  
     left: 0px;
     bottom: 10px;
+    background-color: rgba(55, 55, 55, 0.428);
+    backdrop-filter: blur(2px);
+    transition: 500ms ease-out;
 }
 
 .gitIcon:hover{
-    skew:none;
+    transform: rotate(-15deg);
+    transition: 500ms ease-out;
 }
