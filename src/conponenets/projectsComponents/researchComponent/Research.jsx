@@ -7,9 +7,14 @@ export const Research = () =>{
     <div className="companion"></div>
     <NavLink to="/projects"><ArrowBackIosIcon className="exit"></ArrowBackIosIcon></NavLink>
     <div className="project">
-                <h1 className="title">
-                    Cybersecurity: An Analysis on Network Attacks
+    <div className="headers">
+                <h1 className="title1">
+                   Cyber Security: An Analysis on Network Attacks
                 </h1>
+                <h3 className="date1">
+                    May 2023
+                    </h3>
+                </div>
                 <div className="imageRules img2a"></div>
                 <div className="fontSelect description desc1"> 
                     In my research paper, I investigated the existing literature in the
@@ -21,9 +26,14 @@ export const Research = () =>{
            </div>
 
             <div className="project">
-                <h1 className="title">
-                    A Study on Super Clustering Methods for Optical Mouse Trajectory
+            <div className="headers">
+                <h1 className="title1">
+                    A Study on Superclustering Methods for Optical Mouse Trajectories
                 </h1>
+                <h3 className="date1">
+                    May 2023
+                    </h3>
+                </div>
                 <div className="imageRules img1a"></div>
                 <div className="fontSelect description desc1"> 
                 This paper presented a study on the employment of the Tap-Strap 2 
@@ -39,9 +49,14 @@ export const Research = () =>{
             
    
             <div className="project">
-                <h1 className="title">
-                   An Investigation on Security Vulnerabilities in different WiFi protocals.
+            <div className="headers">
+            <h1 className="title1">
+                    An Investigation on Security Vulnerabilities in Different WiFi Protocols
                 </h1>
+                <h3 className="date1">
+                    May 2023
+                    </h3>
+                </div>
                 <div className="imageRules img3a"></div>
                 <div className="fontSelect description desc1"> 
                     This paper explored the concept of "WiFi" hacking and attempted to show

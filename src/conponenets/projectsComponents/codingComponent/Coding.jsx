@@ -9,9 +9,14 @@ export const Coding = () =>{
         <div className="companion"></div>
         <NavLink to="/projects"><ArrowBackIosIcon className="exit"></ArrowBackIosIcon></NavLink>
     <div className="project fitness ">
-                <h1 className="title">
+        <div className="headers">
+                <h1 className="title1">
                     NightHawk Fitness: Senior Inquiry
                 </h1>
+                <h3 className="date1">
+                    5/20/2023
+                    </h3>
+                </div>
                 <div className="imageRules img2"></div>
                 <div className="fontSelect description desc1"> 
                     My experience at Augustana college culminated in a special course
@@ -32,9 +37,14 @@ export const Coding = () =>{
            </div>
 
             <div className="project schedule">
-                <h1 className="title">
+            <div className="headers">
+                <h1 className="title1">
                     Software Development: The Business Team
                 </h1>
+                <h3 className="date1">
+                    12/8/2021
+                    </h3>
+                </div>
                 <div className="imageRules img1"></div>
                 <div className="fontSelect description desc1"> Me and a group of three
                 other students were tasked to create a multi-faceted app
@@ -54,9 +64,14 @@ export const Coding = () =>{
             
    
             <div className="project tapStrap ">
-                <h1 className="title">
-                   Human Computer Interactions: Tap-Strap 2
+            <div className="headers">
+                <h1 className="title1">
+                    Human Computer Interactions: The Tap Strap 2
                 </h1>
+                <h3 className="date1">
+                    1/20/2023
+                    </h3>
+                </div>
                 <div className="imageRules img3"></div>
                 <div className="fontSelect description desc1"> 
                     During Winter of 2022, I took the special topics course named "Human Computer Interaction."
