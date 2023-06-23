@@ -6,6 +6,7 @@
     margin: 1rem;
     text-align: center;
     filter: brightness(80%);
+    border: 7px solid var(--text);
 }
 
 .topHawk > *{
@@ -22,6 +23,7 @@
     margin: 1rem;
     filter: brightness(90%);
     text-align: center;
+    border: 7px solid var(--text);
 }
 
 .bottomHawk > *{

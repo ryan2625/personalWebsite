@@ -4,7 +4,6 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .project{
@@ -22,16 +21,33 @@
 }
 
 .project:nth-child(3){
-    animation: fadeIn 1s ease-out forwards;
+    animation: fadeInLong .8s ease-out forwards;
     
 }
 
 .project:nth-child(4){
-    animation: fadeIn 1.5s ease-out forwards;
+    animation: fadeInLong 1.3s ease-out forwards;
 }
 
 .project:nth-child(5){
-    animation: fadeIn 2s ease-out forwards;
+    animation: fadeInLong 1.8s ease-out forwards;
+}
+
+@keyframes fadeInLong {
+    0% {
+        overflow: hidden;
+        opacity: 0;
+        transform: translateX(-8%);
+    }
+
+    35%{
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
 }
 
 
@@ -92,6 +108,7 @@
     position: relative;
     color: aliceblue;
 }
+
 
 .technologiesUsed > *:hover{
     filter: brightness(170%);
