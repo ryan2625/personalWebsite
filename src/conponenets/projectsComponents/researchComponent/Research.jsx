@@ -12,7 +12,7 @@ export const Research = () =>{
                    Cyber Security: An Analysis on Network Attacks
                 </h1>
                 <h3 className="date1">
-                    May 2023
+                    10/15/2022
                     </h3>
                 </div>
                 <div className="imageRules img2a"></div>
@@ -31,7 +31,7 @@ export const Research = () =>{
                     A Study on Superclustering Methods for Optical Mouse Trajectories
                 </h1>
                 <h3 className="date1">
-                    May 2023
+                    1/20/2023
                     </h3>
                 </div>
                 <div className="imageRules img1a"></div>
@@ -54,7 +54,7 @@ export const Research = () =>{
                     An Investigation on Security Vulnerabilities in Different WiFi Protocols
                 </h1>
                 <h3 className="date1">
-                    May 2023
+                    12/24/2022
                     </h3>
                 </div>
                 <div className="imageRules img3a"></div>
