@@ -2,8 +2,11 @@ import "./contact.css"
 import { ContactPic } from "./contactPic"
 export const Contacts = () =>{
     return <div className="contactContainer">
-
-        <ContactPic>ASDasds</ContactPic>
+        <div className="leftContact">
+            <ContactPic>ASDasds</ContactPic>
+        </div>
+        <div className="rightContact">
         <h1>Contacts</h1>
+        </div>
     </div>
 }

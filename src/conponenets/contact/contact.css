@@ -1,0 +1,11 @@
+.contactContainer{
+    display: flex;
+}
+
+.leftContact{
+    flex-basis: 50%;
+}
+
+.rightContact{
+    flex-basis: 50%;
+}

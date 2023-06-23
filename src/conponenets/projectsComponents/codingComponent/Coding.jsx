@@ -22,9 +22,9 @@ export const Coding = () =>{
                 </div>
                 <div className="technologiesUsed">
                 <a href="https://github.com/AugustanaCSC490Spring23/Nighthawk-Fitness" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>
+                <a href="https://fitness-dev-2.web.app/" className="liveApp">Live App</a>
                         <h1 className="react">React</h1>  
                         <h1 className="css">CSS</h1>
-                        <h1 className="HTML">HTML</h1>
                         <h1 className="javaScript">Javascript</h1>
                         <h1 className="fireBase">Firebase</h1>
                     </div>

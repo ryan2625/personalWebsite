@@ -1,0 +1,31 @@
+.topHawk{
+    width: 95%;
+    height: calc(50vh - 82px);
+    background-image: url("hawkImage.png");
+    background-size: cover;
+    margin: 1rem;
+    text-align: center;
+    filter: brightness(80%);
+}
+
+.topHawk > *{
+    filter: brightness(130%);
+    color: black;
+    text-decoration: underline;
+}
+
+.bottomHawk{
+    width: 95%;
+    height: calc(50vh - 82px);
+    background-image: url("workoutPlan.png");
+    background-size: cover;
+    margin: 1rem;
+    filter: brightness(90%);
+    text-align: center;
+}
+
+.bottomHawk > *{
+    filter: brightness(120%);
+    color: var(--text);
+    text-decoration: underline;
+}

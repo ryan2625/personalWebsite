@@ -2,7 +2,7 @@ import "./homeContent.css"
 import { NavLink } from "react-router-dom"
 export const HomeContent = () =>{
     return <div className="containerAll">
-    <h1 className="intro">About Me</h1>
+    <h1 className="intro" id="n0">About Me</h1>
     <div className="homeContainer2">
         
          <div id="n1" className="namer left">

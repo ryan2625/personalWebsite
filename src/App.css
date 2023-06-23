@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
   font-family: 'Poppins', sans-serif;
-  
 }
 
 *::-webkit-scrollbar {
@@ -16,6 +15,10 @@
   background-color: #013496;
   border-radius: 22px;
   border: 2px outset #aeaeae;
+}
+
+a:-webkit-any-link{
+  text-decoration: none;
 }
 
 body{
@@ -34,4 +37,5 @@ body{
   --tertiary:#001743;
   --secondaryTertiary:#013496;
   --headerBack:#68686828;
+  --mainTransition: ;
 }

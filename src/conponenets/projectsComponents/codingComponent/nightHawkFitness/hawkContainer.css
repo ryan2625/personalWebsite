@@ -1,3 +1,13 @@
-.flexContainer{
+.homeContainer3{
     display: flex;
+}
+
+
+.homeCard3{
+    flex-basis: 50%;
+    height: calc(100vh - 82px);
+}
+
+.homeContent3{
+    flex-basis: 50%;
 }

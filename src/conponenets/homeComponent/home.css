@@ -2,14 +2,13 @@ body{
     background-color: var(--main);
 }
 
-
-
 #namer{
     animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
     0% { opacity: 0; }
+    90% {opacity:0}
     100% { opacity: 1; }
   }
 
@@ -21,6 +20,7 @@ body{
     flex-basis: 40%;
     height: calc(100vh - 82px);
 }
+
 .homeContent{
     flex-basis: 60%;
 }
