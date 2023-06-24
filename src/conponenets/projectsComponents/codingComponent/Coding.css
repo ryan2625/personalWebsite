@@ -35,10 +35,6 @@
     animation: fadeInLong 2s ease-out forwards;
 }
 
-.project:nth-child(5){
-    animation: fadeInLong 2.5s ease-out forwards;
-}
-
 @keyframes fadeInLong {
     0% {
         overflow: hidden;

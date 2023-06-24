@@ -1,6 +1,7 @@
 .projInfo{
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 1rem;
     text-decoration: underline ;
 }
 
@@ -12,4 +13,32 @@
 
 .hawkInfoContainer > h4 {
     margin-bottom: 2rem;
+}
+
+.teamImage{
+    background-image: url("hawkResize.png");
+    background-size: cover;
+    height: 35vh;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.lister{
+    margin-bottom: 23rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lister > h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lister > li{
+    font-size: large;
+    list-style-type: square;
+}
+
+.lister > ul{
+    margin-top: 3rem;
 }

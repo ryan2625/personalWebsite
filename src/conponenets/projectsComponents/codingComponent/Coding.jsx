@@ -57,7 +57,6 @@ export const Coding = () =>{
                         <h1 className="java">Java</h1>
                         <h1 className="css">CSS</h1>
                     </div>
-                    <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
            </div>
 
 
@@ -87,7 +86,6 @@ export const Coding = () =>{
                         <h1 className="css">CSS</h1>
                         <h1 className="machineLearning">Machine Learning</h1>
                     </div>
-                    <button className="readMore">Read More<EastIcon className="eastIcon"/></button>
             </div>
 
         </div>

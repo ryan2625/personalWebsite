@@ -6,7 +6,6 @@
 .homeCard3{
     flex-basis: 50%;
     height: calc(100vh - 82px);
-    border: 1px solid var(--tertiary);
 }
 
 .homeContent3{

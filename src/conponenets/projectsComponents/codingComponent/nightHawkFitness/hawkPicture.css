@@ -31,3 +31,33 @@
     color: var(--text);
     text-decoration: underline;
 }
+
+.thirdHawk{
+    width: 95%;
+    height: calc(50vh - 82px);
+    background-image: url("nutritionAPI.png");
+    background-size: cover;
+    margin: 1rem;
+    filter: brightness(90%);
+    text-align: center;
+    border: 7px solid var(--text)
+}
+
+.thirdHawk > *{
+    filter: brightness(120%);
+    color: var(--text);
+    text-decoration: underline;
+    background-color: black;
+}
+
+.pictureHawk > img{
+    height: calc(50vh - 82px);
+    width: 95%;
+    width: 95%;
+    height: calc(60vh - 82px);
+    background-size: cover;
+    margin: 1rem;
+    filter: brightness(90%);
+    text-align: center;
+    border: 7px solid var(--text)
+}
