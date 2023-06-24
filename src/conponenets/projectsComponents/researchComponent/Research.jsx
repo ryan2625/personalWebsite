@@ -23,6 +23,9 @@ export const Research = () =>{
                     that may occur onto a system, as well as offering an analysis of the different
                     prevention techniques we have at our disposal.
                 </div>
+                <div className="technologiesUsed researcher">
+                <a href="https://drive.google.com/file/d/1-KNBq8CfMS5BhY_140FT4dyBBOcnhYnz/view" className="liveApp readPaper1" id="paper1">Read Here</a>
+                    </div>
            </div>
 
             <div className="project">
@@ -43,6 +46,9 @@ export const Research = () =>{
                 and (2) to perform an analysis of the learning curve associated with
                 the tap combinations of the device.
                 </div>
+                <div className="technologiesUsed researcher">
+                <a href="https://drive.google.com/file/d/1Xxoz19Mz0svj9FCyWJEyARw_Mw_J1t5b/view?usp=sharing" className="liveApp readPaper1" id="paper2">Read Here</a>
+                    </div>
            </div>
 
 
@@ -66,6 +72,9 @@ export const Research = () =>{
                     with the WEP protocal; we did this by performing a brute force 
                     dictionary attack.
                 </div>
+                <div className="technologiesUsed researcher">
+                <a href="https://drive.google.com/file/d/1v3Aa5-VDnrWST-kWQX2arLhBmVPKiYI2/view?usp=sharing" className="liveApp readPaper1" id="paper3">Read Here</a>
+                    </div>
             </div>
         </div>
     </>

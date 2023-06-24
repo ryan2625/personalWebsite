@@ -9,3 +9,29 @@
 .img3a{
     background-image: url("./researchPics/wifiVulnerabilities.png");
 }
+
+.researcher{
+    position: relative;
+    height: 70px;
+}
+
+#paper1{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 150px;
+}
+
+#paper2{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 150px;
+}
+
+#paper3{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 150px;
+}
