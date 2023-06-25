@@ -23,12 +23,14 @@ export const Navbar = () =>{
                 <NavLink className={"effect"}  to="/contacts">
                     <li>Contact</li>
                 </NavLink>
+        {/*}  
                 <NavLink className={"effect"} to="/futureDev">
                     <li>Future Developments</li>
                 </NavLink>
                 <NavLink className={"effect"} to="/blog">
                     <li>Blog</li>
                 </NavLink>
+*/}
             </ul>
         </div>
     </div>

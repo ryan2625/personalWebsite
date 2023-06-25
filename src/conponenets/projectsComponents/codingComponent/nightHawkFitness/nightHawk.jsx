@@ -25,7 +25,7 @@ export const Hawk = () =>{
         <h2 className="aligner lister">Challenges</h2>
         <h4 className="aligner">&ensp;&ensp; This project was particularly challenging because I had no serious prior experience with web development. I knew little about CSS, HTML, and JS. 
         The fact that I had to learn the React library at the same time I learned the basics made the deadlines for this project more stressful. Thankfully, our team worked amazingly together 
-        and we came out at the end of this class not just alive, but with a project we could be proud of. This project really inspired me to focus my attention on web development and overall,
+        &#40;special thanks to Minh for being a great leader&#41; and we came out at the end of this class not just alive, but with a project we could be proud of. This project really inspired me to focus my attention on web development and overall,
         I loved working in this group.
         </h4>
         

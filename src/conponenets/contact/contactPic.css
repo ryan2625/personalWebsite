@@ -1,0 +1,6 @@
+.pictureContact{
+    background-image: url("");
+    background-size: cover;
+    height: 60vh;
+    filter: brightness(70%);
+}

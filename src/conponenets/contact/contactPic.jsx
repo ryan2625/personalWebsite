@@ -1,6 +1,7 @@
+import "./contactPic.css"
 import "./Contact"
 export const ContactPic = () => {
     return (
-        <div className="pictureContact">asd</div>
+        <div className="pictureContact"></div>
     )
 }
