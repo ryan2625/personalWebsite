@@ -24,3 +24,13 @@ body{
 .homeContent{
     flex-basis: 60%;
 }
+
+@media (min-width: 801px){
+    .homeContainer{
+        overflow-x: hidden;
+    }
+
+    .homeContent{
+        overflow-x: hidden;
+    }
+}

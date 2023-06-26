@@ -3,6 +3,7 @@ import "./navbar.css"
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import {FaBars, FaTimes} from "react-icons/fa"
 import React, {useState} from "react"
+import { Transform } from "@mui/icons-material";
 export const Navbar = () =>{
 
     const [click, setClick] = useState(false)
@@ -38,14 +39,15 @@ export const Navbar = () =>{
 
 
 
-        <div onClick={handleClick}
-        className={click ? "menu-icon iconClosed" : "menu-icon iconOpen"}>
-                {click ? <FaTimes /> : <FaBars />}
-            </div>
 
         <div className="mobileNavbar">
+        <div onClick={handleClick}
+        className={click ? "menu-icon iconClosed" : "menu-icon iconOpen"}>
+                <FaBars />
+            </div>
             <ul className={click ? "navMenu active" : "nav-menu closed"}>
-                
+            <FaTimes style={{transform: "scale(2.5)", margin: "2rem"}} 
+                onClick={closeMobileMenu} />
                 <li className="nav-item">
                      <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} 
                      onClick={closeMobileMenu}>

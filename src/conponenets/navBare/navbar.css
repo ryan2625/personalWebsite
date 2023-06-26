@@ -139,9 +139,10 @@ li{
 }
 
 .mobileNavbar{
-
+    width: 100vh;
+    height: 100vh;
+    position: relative;
 }
-
 
 .navMenu{
     z-index: 999;
@@ -154,7 +155,7 @@ li{
     position: sticky;
     top: 0;
     width: 100%;
-    height: var(--doc-height);
+    height: 100%;
 }
 
 .iconClosed{
@@ -163,4 +164,9 @@ li{
 
 .iconOpen{
     display: block;
+    position: absolute;
+    right: 33px;
+    transform:scale(3);
+    top: 33px;
 }
+
