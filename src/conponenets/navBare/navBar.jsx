@@ -11,7 +11,6 @@ export const Navbar = () =>{
 
     const closeMobileMenu = () => setClick(false)
 
-
     return<>
     <div className="navBar">
         <div className="header">
@@ -33,6 +32,46 @@ export const Navbar = () =>{
                 <NavLink className={"effect"}  to="/contacts">
                     <li>Contact</li>
                 </NavLink>
+
+            </ul>
+        </div>
+
+
+
+        <div onClick={handleClick}
+        className={click ? "menu-icon iconClosed" : "menu-icon iconOpen"}>
+                {click ? <FaTimes /> : <FaBars />}
+            </div>
+
+        <div className="mobileNavbar">
+            <ul className={click ? "navMenu active" : "nav-menu closed"}>
+                
+                <li className="nav-item">
+                     <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} 
+                     onClick={closeMobileMenu}>
+                        Home
+                     </NavLink>
+                </li>
+                <li className="nav-item">
+                     <NavLink to="/projects" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}
+                     onClick={closeMobileMenu}>
+                        Projects
+                     </NavLink>
+                </li>
+                <li className="nav-item">
+                     <NavLink to="/contacts" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}
+                     onClick={closeMobileMenu}>
+                        Contact
+                     </NavLink>
+                </li>
+            </ul>
+            
+            </div>
+    </div>
+    </>
+}
+
+
         {/*}  
                 <NavLink className={"effect"} to="/futureDev">
                     <li>Future Developments</li>
@@ -41,26 +80,3 @@ export const Navbar = () =>{
                     <li>Blog</li>
                 </NavLink>
 */}
-            </ul>
-            <div className="mobileNavbar">
-            <div className="menu-icon" onClick={handleClick}>
-                {click ? <FaTimes /> : <FaBars />}
-            </div>
-            <ul className={click ? "nav-menu active" : "nav-menu closed"}>
-                <li className="nav-item">
-                     <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}>
-                        Home
-                     </NavLink>
-                </li>
-                <li className="nav-item">
-                     <NavLink to="/projects" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}>
-                        projects
-                     </NavLink>
-                </li>
-            </ul>
-            </div>
-        </div>
-
-    </div>
-    </>
-}

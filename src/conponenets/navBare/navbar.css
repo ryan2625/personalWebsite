@@ -73,6 +73,7 @@
     background: rgb(0, 0, 0);
     border-bottom: 2px solid rgba(255, 255, 255, 0.17);
     border-radius: 3%;
+    z-index: 99;
 }
 
 .quickLinks{
@@ -101,6 +102,34 @@ li{
 
 }
 
+@media (min-width: 801px){
+    .mobileNavbar{
+        display: none;
+    }
+
+    .menu-icon{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .quickLinks{
+        display: none;
+    }
+
+    .header{
+        display: none;
+    }
+}
+
+.active{
+    display: block;
+}
+
+.closed{
+    display: none;
+}
+
 .nav-links{
     color: rgb(255, 0, 195);
 }
@@ -110,6 +139,28 @@ li{
 }
 
 .mobileNavbar{
-    position: absolute;
-    left: 200px;
+
+}
+
+
+.navMenu{
+    z-index: 999;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: var(--doc-height);
+}
+
+.iconClosed{
+    display: none;
+}
+
+.iconOpen{
+    display: block;
 }
