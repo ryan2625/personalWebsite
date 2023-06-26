@@ -12,10 +12,3 @@ code {
     monospace;
 }
 
-:root{
-  --main: #0c090a;
-  --secondary: #cc0000;
-  --secondaryMain:#3d3d3d;
-  --text:#F4F4F4;
-  --tertiary:#001743;
-}

@@ -25,7 +25,7 @@ body{
     flex-basis: 60%;
 }
 
-@media (min-width: 801px){
+@media (max-width: 801px){
     .homeContainer{
         overflow-x: hidden;
     }

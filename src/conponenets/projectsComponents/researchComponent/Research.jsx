@@ -32,7 +32,7 @@ export const Research = () =>{
             <div className="headers">
                 <h1 className="title1">
                     A Study on Superclustering Methods for Optical Mouse Trajectories
-                </h1>
+             </h1>
                 <h3 className="date1">
                     1/20/2023
                     </h3>
