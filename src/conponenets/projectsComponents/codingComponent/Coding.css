@@ -32,7 +32,7 @@
 }
 
 .project:nth-child(4){
-    animation: fadeInLong 2s ease-out forwards;
+    animation: fadeInLong 1.75s ease-out forwards;
 }
 
 @keyframes fadeInLong {
@@ -42,7 +42,7 @@
         transform: translateX(-5%);
     }
 
-    100% {
+    80% {
         opacity: 1;
         transform: translateX(0%);
     }

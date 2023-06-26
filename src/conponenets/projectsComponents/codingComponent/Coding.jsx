@@ -22,8 +22,8 @@ export const Coding = () =>{
                     My experience at Augustana college culminated in a special course
                     called the "Seniory Inquiry." Me and my team of a few other students worked
                     vigoursly over the course of 14 weeks to design, create and deploy a 
-                    fitness based web app. This app handled user data with Firebase and was
-                    powered by ReactJs.
+                    fitness based web app. This app handles user data with Firebase, supports
+                    CRUD operations,   and is  powered by ReactJs.
                 </div>
                 <div className="technologiesUsed">
                 <a href="https://github.com/AugustanaCSC490Spring23/Nighthawk-Fitness" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>

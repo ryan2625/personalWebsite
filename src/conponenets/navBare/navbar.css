@@ -100,3 +100,16 @@ li{
     list-style: none;
 
 }
+
+.nav-links{
+    color: rgb(255, 0, 195);
+}
+
+.activated{
+    color: green;
+}
+
+.mobileNavbar{
+    position: absolute;
+    left: 200px;
+}
