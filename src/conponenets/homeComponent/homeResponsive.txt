@@ -2,9 +2,14 @@ Home Content:
 
 Breaks at 950 px
 
+Change at 850
+
 
 Assign Breakpoints ?:
 
 Small (smaller than 640px)
 Medium (641px to 1007px)
 Large (1008px and larger)
+
+
+change hjome content @ 610 px

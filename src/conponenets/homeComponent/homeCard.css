@@ -32,7 +32,6 @@
     .image{
         background-image: url("finalPhotoResize.png");
         width: 490px;
-        
     }
 }
 
@@ -41,3 +40,20 @@
     100% { opacity: 1; }
   }
   
+
+  @media (max-width: 900px){
+    .image{
+        background-image: url("responsiveFinal.jpg");
+        filter: brightness(100%);
+
+    }
+}
+
+@media (max-width: 420px){
+    .image{
+        background-image: url("responsiveFinal.jpg");
+        background-size: 350px 600px;
+        background-repeat: no-repeat;
+    }
+}
+

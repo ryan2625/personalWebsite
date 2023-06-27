@@ -14,6 +14,7 @@ body{
 
   .homeContainer{
     display: flex;
+    overflow-x: hidden;
 }
   
 .homeCard{
@@ -25,12 +26,25 @@ body{
     flex-basis: 60%;
 }
 
-@media (max-width: 801px){
+@media (max-width: 900px){
     .homeContainer{
         overflow-x: hidden;
+        flex-wrap: wrap;
     }
 
     .homeContent{
         overflow-x: hidden;
     }
+
+    .homeCard{
+        flex-basis: 100%;
+        height: 40vh;
+        flex-shrink: 0;
+        overflow-y: hidden;
+    }
+
+    .homeContent{
+        flex-basis: 100%;
+    }
 }
+
