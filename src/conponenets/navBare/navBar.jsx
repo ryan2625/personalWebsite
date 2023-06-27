@@ -40,13 +40,20 @@ export const Navbar = () =>{
 
 
 
-        <div className="mobileNavbar">
+        <div className= {click ? "mobileNavbar full" : "mobileNavbar cut"}>
+        <div className="firstNav">
+            <div id="icon" className="icon">
+                <DashboardIcon/>
+            </div>
+            <h2 id="name">Ryan Freas</h2>
+        </div>
         <div onClick={handleClick}
         className={click ? "menu-icon iconClosed" : "menu-icon iconOpen"}>
                 <FaBars />
             </div>
             <ul className={click ? "navMenu active" : "nav-menu closed"}>
-            <FaTimes style={{transform: "scale(2.5)", margin: "2rem"}} 
+                <div className="mobileLinks">
+            <FaTimes style={{transform: "scale(2.5)", margin: "1rem"}} 
                 onClick={closeMobileMenu} />
                 <li className="nav-item">
                      <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} 
@@ -66,6 +73,7 @@ export const Navbar = () =>{
                         Contact
                      </NavLink>
                 </li>
+                </div>
             </ul>
             
             </div>

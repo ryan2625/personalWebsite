@@ -17,8 +17,6 @@ export const Contacts = () =>{
         });
     };
 
-
-
     return <div className="contactContainer">
                 <div className="leftContact">
             <ContactPic>ASDasds</ContactPic>

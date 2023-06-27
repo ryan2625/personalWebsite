@@ -76,7 +76,6 @@ h4{
     font-family: poppins, sans-serif;
     width: 600px;
     height: 125px;
-
 }
 
 .a1{
@@ -112,7 +111,7 @@ h4{
 
 .q3{
     grid-row: 5/6;
-    margin-top: 2.6rem;
+    margin-top: 3.1rem;
     font-size: small;
 }
 
@@ -150,7 +149,6 @@ h4{
   }
 
   .button1{
-
     background-color: rgb(225, 225, 225);
     font-size: large;
     width: 150px;
@@ -232,4 +230,78 @@ h4{
 
 #n6{
     animation: animationAppear2 2.7s ease-out forwards;
+}
+
+@media (max-width: 600px){
+    .homeContainer2{
+        grid-template-rows: repeat(8, 120px) 35px;
+    }
+
+    .homeContainer{
+        overflow-y: scroll;
+    }
+
+    .containerAll{
+        overflow: hidden;
+    }
+
+    .left{
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    .right{
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    .q1{
+        margin-right: 2rem;
+    }
+    
+    .q2{
+        grid-row: 3/4;
+        margin-top: 5.90rem;;
+    }
+    
+    .q3{
+        grid-row: 7/8;
+        margin-top: 3.1rem;
+        font-size: small;
+    }
+
+    .a1{
+        grid-row: 2/3;
+    }
+    
+    .a2{
+        grid-row: 5/6;
+        
+    }
+    
+    .a3{
+        grid-row: 8/9;
+    }
+
+    .homeContainer2 :nth-child(4){
+        height: 253px;
+    }
+    
+    .homeContainer2 :nth-child(6){
+        height: 250px;
+        margin-top: 6rem;
+    }
+
+    .homeContainer2 :nth-child(2){
+        height: 185px;
+    }
+
+    .button1{
+        margin: -1rem auto 1rem  
+    }
+
+    .navLink1{
+        height: 60px;
+    }
+    
 }

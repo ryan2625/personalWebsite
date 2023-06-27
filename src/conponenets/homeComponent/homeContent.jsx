@@ -6,7 +6,7 @@ export const HomeContent = () =>{
     <div className="homeContainer2">
         
          <div id="n1" className="namer left">
-            <h1  className="qLeft">
+            <h1  className="qLeft" >
                 Who are you?
             </h1>
         </div>

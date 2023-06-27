@@ -74,6 +74,7 @@
     border-bottom: 2px solid rgba(255, 255, 255, 0.17);
     border-radius: 3%;
     z-index: 99;
+    position: relative;
 }
 
 .quickLinks{
@@ -120,6 +121,22 @@ li{
     .header{
         display: none;
     }
+
+    .navBar{
+        position: fixed;
+        height: 80px;
+        width: 100%;
+    }
+
+    .firstNav{
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+
+    .homeCard{
+        margin-top: 3rem;
+    }
 }
 
 .active{
@@ -131,31 +148,44 @@ li{
 }
 
 .nav-links{
-    color: rgb(255, 0, 195);
+    color: var(--textSecondary);
 }
 
 .activated{
-    color: green;
+    color: var(--tertiary);
+    background-color: rgba(255, 255, 255, 0.855);
+    padding: .5rem;
+    border-radius: 20px;
 }
 
 .mobileNavbar{
-    width: 100vh;
+    width: 100%;
     height: 100vh;
-    position: relative;
+    background: linear-gradient(159deg, rgb(0, 0, 0) 25%, rgba(1,52,150,1) 88%);
 }
 
 .navMenu{
     z-index: 999;
-    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: white;
-    position: sticky;
-    top: 0;
     width: 100%;
     height: 100%;
+    position: relative;
+    background: linear-gradient(159deg, rgb(0, 0, 0) 25%, rgba(1,52,150,1) 88%);
+}
+
+.mobileLinks{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mobileLinks > *{
+    margin-top: 1.5rem;
 }
 
 .iconClosed{
@@ -165,8 +195,15 @@ li{
 .iconOpen{
     display: block;
     position: absolute;
-    right: 33px;
+    right:40px;
     transform:scale(3);
-    top: 33px;
+    top: 35px;
 }
 
+.cut{
+    height: 80px;
+}
+
+.full{
+    height: 100vh;
+}
