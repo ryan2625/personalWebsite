@@ -234,11 +234,13 @@ h4{
 
 @media (max-width: 600px){
     .homeContainer2{
+        height: 1200px;
         grid-template-rows: repeat(8, 120px) 35px;
     }
 
     .homeContainer{
         overflow-y: scroll;
+        height: fit-content;
     }
 
     .containerAll{
@@ -297,11 +299,11 @@ h4{
     }
 
     .button1{
-        margin: -1rem auto 1rem  
+        display: none;
     }
 
     .navLink1{
-        height: 60px;
+        display: none;
     }
     
 }
