@@ -148,12 +148,12 @@ h4{
     animation: none !important;
   }
 
-  .button1{
+  .button12{
     background-color: rgb(225, 225, 225);
     font-size: large;
     width: 150px;
     height: 40px;
-    margin: .4rem auto .1rem;
+    margin: .4rem auto 1rem;
     display: block;
     box-shadow: 5px 5px var(--secondaryTertiary);
     transition: background-color .5s ease-in-out,
@@ -162,7 +162,11 @@ h4{
     border-radius: 5px;
 }
 
-.button1:hover{
+.navLink1{
+    margin-top: 1rem;
+}
+
+.button12:hover{
     color: var(--text);
     background-color: var(--secondaryTertiary);
     border: 1px solid var(--text);
@@ -308,7 +312,7 @@ h4{
         height: 160px;
     }
 
-    .button1{
+    .button12{
         display: none;
     }
 

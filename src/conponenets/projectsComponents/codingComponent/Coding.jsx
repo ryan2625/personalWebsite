@@ -23,11 +23,7 @@ export const Coding = () =>{
                 </div>
                 <div className="imageRules img2"></div>
                 <div className="fontSelect description desc1"> 
-                    My experience at Augustana college culminated in a special course
-                    called the "Seniory Inquiry." Me and my team of a few other students worked
-                    vigoursly over the course of 14 weeks to design, create and deploy a 
-                    fitness based web app. This app handles user data with Firebase, supports
-                    CRUD operations,   and is  powered by ReactJs.
+                My experience at Augustana College culminated in a special course called the "Seniory Inquiry." Me and my team of a few other students worked vigorously over the course of 14 weeks to design, create, and deploy a fitness-based web app. This app handles user data with Firebase, supports CRUD operations, and is powered by ReactJs.
                 </div>
                 <div className="technologiesUsed">
                 
@@ -52,11 +48,7 @@ export const Coding = () =>{
                     </h3>
                 </div>
                 <div className="imageRules img1"></div>
-                <div className="fontSelect description desc1"> Me and a group of three
-                other students were tasked to create a multi-faceted app
-                that could allow students to register, drop, and visualize
-                the courses they were taking during the school year. This app
-                was coded in Java (utilizing the JavaFX library) and had some CSS styling as well.
+                <div className="fontSelect description desc1"> Me and a group of three other students were tasked with creating a multi-faceted app that could allow students to register, drop, and visualize the courses they were taking during the school year. This app was coded in Java (utilizing the JavaFX library) and had some CSS styling as well.
                 </div>
                 <div className="technologiesUsed">
                 <a href="https://github.com/ryan2625/schedule-visualizer" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>
@@ -79,11 +71,7 @@ export const Coding = () =>{
                 </div>
                 <div className="imageRules img3"></div>
                 <div className="fontSelect description desc1"> 
-                    During Winter of 2022, I took the special topics course named "Human Computer Interaction."
-                    In this class, I created special interactions with a handheld keyboard
-                    named the Tap-Strap 2" via the manufacturers software development kit. I also 
-                    worked with the python library "Tkinter" to create a GUI to show off the 
-                    device's capabilities.
+                During the winter of 2022, I took the special topics course named "Human Computer Interaction." In this class, I created special interactions with a handheld keyboard named the Tap-Strap 2" via the manufacturer's software development kit. I also worked with the Python library "Tkinter" to create a GUI to show off the device's capabilities.
                     
                 </div>
                 <div className="technologiesUsed">

@@ -13,7 +13,7 @@ export const HomeContent = () =>{
 
          <div id="n2" className="a1 right">
             <h4  className="aRight">
-                 Hey there, my name is Ryan and I recently graduated from Augustana college with my B.A. in computer science.
+                 Hi there! My name is Ryan and I recently graduated from Augustana college with a B.A. in computer science.
             </h4>
         </div>
 
@@ -25,7 +25,7 @@ export const HomeContent = () =>{
 
         <div id="n4" className="a2 right">
             <h4  className="aRight">
-                I am proficient in  React, and have experience in Javascript, CSS, and HTML. I have some experience in Python and Java as well and I'm excited to see what I'll learn next.
+                I am proficient in React, and have experience in Javascript, CSS, and HTML. I have some experience in Python and Java as well and I'm excited to see what I'll learn next!
             </h4>
         </div>
 
@@ -42,7 +42,7 @@ export const HomeContent = () =>{
         </div>
     </div>
     <NavLink className="navLink1" to="/contacts">
-        <button className="button1">LET'S TALK</button>
+        <button className="button12">LET'S TALK</button>
     </NavLink>
     </div>
 }
