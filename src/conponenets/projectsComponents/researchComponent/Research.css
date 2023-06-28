@@ -12,26 +12,49 @@
 
 .researcher{
     position: relative;
-    height: 70px;
+    min-height: 80px;
 }
 
 #paper1{
     position: absolute;
     bottom: 1px;
     left: 0;
-    width: 150px;
+    min-width: 200px;
+    text-align: center;
 }
 
 #paper2{
     position: absolute;
     bottom: 1px;
     left: 0;
-    width: 150px;
+    min-width: 200px;
+    text-align: center;
 }
 
 #paper3{
     position: absolute;
     bottom: 1px;
     left: 0;
-    width: 150px;
+    min-width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 1100px) {
+    #paper1{
+        min-width: 200px;
+        text-align: center;
+        position: static;
+    }
+    
+    #paper2{
+        min-width: 200px;
+        text-align: center;
+        position: static;
+    }
+    
+    #paper3{
+        min-width: 200px;
+        text-align: center;
+        position: static;
+    }
 }

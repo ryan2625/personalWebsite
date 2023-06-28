@@ -286,22 +286,22 @@
         flex-basis: 40%;
         flex-grow: 0;
         text-align: center;
-        margin: .5rem;
+        margin: .25rem;
      }
 
      .gitIcon{
         position: static;
-        min-width: 150px;
+        min-width: 145px;
      }
      .liveApp{
         position: static;
         font-size: x-large;
-        min-width: 150px;
+        min-width: 148px;
      }
 
      #responsiveMore1{
         display: block;
-
+        min-width: 200px;
     }
 
     #responsiveMore2{
