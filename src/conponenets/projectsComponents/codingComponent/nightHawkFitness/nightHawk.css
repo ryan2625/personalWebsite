@@ -50,4 +50,30 @@
         list-style-type: square;
         margin-left: 1.5rem;
     }
+
+    .lister{
+        margin-bottom: 28rem;
+    }
+
+    .teamImage{
+        height: 25vh;
+    }
+
+    .pictureHawk{
+        height: 1750px;
+    }
+}
+
+@media (max-width: 1450px){
+    .lister > li{
+        font-size: large;
+        list-style-type: square;
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 425px){
+    .lister{
+        margin-bottom: 33rem;
+    }
 }

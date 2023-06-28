@@ -354,3 +354,21 @@
         font-size: medium;
      }
 }
+
+
+
+@media (max-width: 800px){
+    .exit{
+        transform: scale(1.5);
+        left: 75px;
+        bottom: 75px;
+
+    }
+    
+    .companion{
+
+        left: 48px;
+        bottom: 55px;
+
+    }
+}
