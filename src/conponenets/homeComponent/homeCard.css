@@ -52,7 +52,7 @@
 @media (max-width: 420px){
     .image{
         background-image: url("responsiveFinal.jpg");
-        background-size: 350px 600px;
+        background-size: 350px 630px;
         background-repeat: no-repeat;
     }
 }
