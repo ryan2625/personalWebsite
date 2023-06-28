@@ -1,0 +1,64 @@
+.coding{
+    position: relative;
+    height: calc(50vh - 40px);
+    display: flex;
+    align-items: center;
+    background-image: url("reactJS2.jpg");
+    background-size: contain;
+}
+
+.coding:hover{
+    filter: brightness(200%);
+}
+
+.research:hover{
+    filter: brightness(165%);
+}
+
+.research{
+    position: relative;
+    height: calc(50vh - 40px);
+    display: flex;
+    align-items: center;
+    background-image: url("research.png");
+    background-size:auto;
+}
+
+.headings{ 
+    padding: 2rem;
+    margin:0 auto;
+    display: block;
+    transition: 1s background-color;
+    border-radius: 30%;
+}
+
+.headings:hover{
+    transition: .5s background-color;
+    background-color: #000000a1;
+    backdrop-filter: blur(3px);
+}
+
+.navLinkProjects{
+    text-decoration: none;
+    display: block;
+    color: var(--text);
+}
+
+.containerProjects{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.navLinkProjects{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 851px){
+    .containerProjects{
+        position: absolute;
+        width: 100%;
+        top: 80px;
+    }
+}

@@ -1,0 +1,79 @@
+.projInfo{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-decoration: underline ;
+}
+
+.hawkInfoContainer > h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: underline ;
+}
+
+.hawkInfoContainer > h4 {
+    margin-bottom: 2rem;
+}
+
+.teamImage{
+    background-image: url("hawkResize.png");
+    background-size: cover;
+    height: 35vh;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.lister{
+    margin-bottom: 23rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lister > h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lister > li{
+    font-size: large;
+    list-style-type: square;
+    margin-left: 1rem;
+}
+
+.lister > ul{
+    margin-top: 3rem;
+}
+
+@media (max-width: 1150px){
+    .lister > li{
+        font-size: large;
+        list-style-type: square;
+        margin-left: 1.5rem;
+    }
+
+    .lister{
+        margin-bottom: 28rem;
+    }
+
+    .teamImage{
+        height: 25vh;
+    }
+
+    .pictureHawk{
+        height: 1750px;
+    }
+}
+
+@media (max-width: 1450px){
+    .lister > li{
+        font-size: large;
+        list-style-type: square;
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 425px){
+    .lister{
+        margin-bottom: 33rem;
+    }
+}

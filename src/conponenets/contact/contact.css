@@ -1,0 +1,75 @@
+.contactContainer{
+    display: flex;
+}
+
+.leftContact{
+    flex-basis: 60%;
+    background: linear-gradient(65deg, rgba(12,9,10,1) 17%, rgba(1,52,150,1) 36%, rgba(0,0,0,1) 46%);
+}
+
+.rightContact{
+    flex-basis: 100%;
+    height: calc(100vh - 82px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(159deg, rgb(0, 0, 0) 25%, rgba(1,52,150,1) 88%);
+    border-left: 1px solid grey;
+}
+
+.emailForm{
+    text-align: center;
+    border: 2px solid var(--text);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.emailForm > h1{
+    margin-bottom: 2rem;
+}
+
+.emailForm:nth-child(1){
+    color: var(--text);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form > input{
+    margin-bottom: 1.5rem;
+}
+
+form > *{
+    display: block;
+    width: 550px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 30px;
+    background-color: black;
+    color: var(--text);
+}
+
+form > textArea{
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+form > label{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#submitContact{
+    background-color: rgb(15, 15, 15);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    transition: 500ms ease-out;
+}
+
+#submitContact:hover{
+    filter: brightness(230%);
+    transition: 500ms ease-out;
+}

@@ -1,0 +1,60 @@
+.img1a{
+    background-image: url("./researchPics/tapMapper.png");
+}
+
+.img2a{
+    background-image: url("./researchPics/prevention.png");
+}
+
+.img3a{
+    background-image: url("./researchPics/wifiVulnerabilities.png");
+}
+
+.researcher{
+    position: relative;
+    min-height: 80px;
+}
+
+#paper1{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    min-width: 200px;
+    text-align: center;
+}
+
+#paper2{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    min-width: 200px;
+    text-align: center;
+}
+
+#paper3{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    min-width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 1100px) {
+    #paper1{
+        min-width: 200px;
+        text-align: center;
+        position: static;
+    }
+    
+    #paper2{
+        min-width: 200px;
+        text-align: center;
+        position: static;
+    }
+    
+    #paper3{
+        min-width: 200px;
+        text-align: center;
+        position: static;
+    }
+}

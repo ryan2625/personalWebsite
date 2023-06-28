@@ -1,0 +1,67 @@
+.homeContainer3{
+    display: flex;
+    
+}
+
+
+.homeCard3{
+    flex-basis: 50%;
+    height: calc(100vh - 82px);
+}
+
+.homeContent3{
+    flex-basis: 50%;
+}
+
+
+@media (max-width: 850px){
+    .homeContainer3{
+        position: absolute;
+        top: 80px;
+    }
+    
+}
+
+@media (max-width: 815px){
+
+    .homeContainer3{
+        flex-direction: column;
+    }
+    .homeContent3{
+        order: -1;
+        flex-basis: 100%;
+    }
+
+    .homeCard3{
+        flex-basis: 100%;
+        height: calc(100vh - 82px);
+    }
+
+    .pictureHawk > img{
+        height: 325px;
+        width: 510px;
+    }
+
+    .pictureHawk{
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 510px){
+
+    .pictureHawk > img{
+        height: 200px;
+        width: 325px;
+    }
+
+    
+}
+
+
+@media (max-width: 475px){
+
+    .teamImage{
+        height: 15vh;
+    }
+    
+}

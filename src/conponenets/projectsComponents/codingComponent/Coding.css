@@ -1,0 +1,374 @@
+.codingContainerProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.headers{
+    display: flex;
+    flex-basis: 100%;
+    position: relative;
+}
+
+.project{
+    min-width: 1100px;
+    align-self: center;
+    flex-basis: 60%;
+    margin: 2rem;
+    padding: .5rem;
+    border-radius: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background: linear-gradient(159deg, rgb(0, 0, 0) 25%, rgba(1,52,150,1) 88%);
+}
+
+.project:nth-child(3){
+    animation: fadeInLong 1.5s ease-out forwards;
+    
+}
+
+.project:nth-child(4){
+    animation: fadeInLong 1.75s ease-out forwards;
+}
+
+@keyframes fadeInLong {
+    0% {
+        overflow: hidden;
+        opacity: 0;
+        transform: translateX(-5%);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+.title1{
+    flex-shrink: 1;
+    align-content: center;
+    display: flex;
+    height: 20%;
+}
+
+.date1{
+    align-content: center;
+    margin-top: .7rem;
+    margin-left: 1.2rem;
+    font-style: italic;
+    font-size: medium;
+}
+
+.img1{
+    background-image: url("./schedulePictures/schedulizer.png");
+}
+
+.description{
+    flex-basis: 55%;
+    max-height: 350px;
+    font-size: x-large;
+    outline: 1px solid var(--text);
+    position: relative;
+    padding: .25rem;
+}
+
+.imageRules{
+    flex-basis: 40%;
+    max-width: 600px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    outline: 1px solid var(--text);
+    padding: 1rem;
+    
+}
+
+.img2{
+    background-image: url("./fitnessPics/nightHawkFitness.png");
+}
+
+.img3{
+    background-image: url("./tapStrapPiccs/tapStrap2.png");
+}
+
+.technologiesUsed{
+    flex-basis: 100%;
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+}
+
+.technologiesUsed > *{
+    padding: .75rem 1.5rem .75rem 1.45rem;
+    margin-right: 1rem;
+    border-radius: 200px;
+    font-size: larger;
+    font-style: italic;
+    position: relative;
+    color: aliceblue;
+}
+
+
+.technologiesUsed > *:hover{
+    filter: brightness(170%);
+    animation: filter 2s;
+}
+
+.react{
+    background-color: rgba(41, 164, 241, 0.716);
+}
+
+.python{
+    background-color: green;
+}
+
+.java{
+    background-color: rgb(150, 0, 140);
+}
+
+.css{
+    background-color: var(--secondaryTertiary);
+}
+
+.HTML{
+    background-color: rgb(130, 43, 0);
+}
+
+.javaScript{
+    background-color: rgba(133, 133, 7, 0.697);
+}
+
+.machineLearning{
+    background-color: steelblue;
+}
+
+.fireBase{
+    background-color: rgba(255, 35, 35, 0.663);
+}
+
+.readMore{
+    background-color:  rgb(21, 142, 255);
+    color: white;
+    margin-left: 1rem;
+    border-radius: 5px;
+    padding: .5rem 1rem .5rem .5rem;
+    position: absolute;
+    min-width: 165px;
+    box-shadow: 5px 5px white;
+    transition: background-color .5s ease-in-out,
+    box-shadow .8s ease, color .5s ease-in-out;
+    border: 2px solid white;
+    font-size: larger;
+    right: 20px;
+    bottom: 28px;
+    font-style: italic;
+}
+
+.eastIcon{
+    position: absolute;
+    left: 131px;
+    bottom: 9px;
+}
+
+.readMore:hover{
+    color: var(--secondaryTertiary);
+    background-color: white;
+    border: 2px solid rgb(21, 142, 255);
+    box-shadow: -7px -7px rgb(21, 142, 255);
+    transition: box-shadow .7s ease, background-color .5s ease-in-out, color .5s ease-in-out ;
+}
+
+.exit{
+    position: fixed;
+    transform: scale(2);
+    left: 150px;
+    bottom: 150px;
+    z-index: 2;
+    color: aliceblue;
+}
+
+.companion{
+    position: fixed;
+    z-index: 1;
+    left: 122px;
+    bottom: 129px;
+    background: rgba(0, 0, 0, 0.676);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 5px 5px   rgba(0, 0, 0, 0.423);
+    transition: 1s background-color;
+}
+
+.gitIcon{
+    text-decoration: none;
+    position: absolute;  
+    left: 0px;
+    border-radius: 5px;
+    bottom: 14px;
+    background-color: rgba(55, 55, 55, 0.428);
+    backdrop-filter: blur(2px);
+    transition: 500ms ease-out;
+    transform: scale(.85);
+}
+
+.gitIcon:hover{
+    transform: scale(.97) rotate(-5deg);
+    transition: 500ms ease-out;
+}
+
+.liveApp:hover{
+    transform: scale(.97) rotate(5deg);
+    transition: 500ms ease-out;
+}
+
+
+.liveApp{
+    text-decoration: none;
+    position: absolute;  
+    left: 150px;
+    border-radius: 5px;
+    bottom: 14px;
+    height: 56px;
+    background-color: rgba(55, 55, 55, 0.428);
+    backdrop-filter: blur(2px);
+    transition: 500ms ease-out;
+    transform: scale(.85);
+}
+
+#responsiveMore1{
+    display: none;
+}
+
+@media (max-width: 1100px){
+
+    .codingContainerProjects{
+        position: absolute;
+        top: 80px;
+    }
+     .project{
+        min-width: 340px;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .description{
+        flex-basis:100%;
+        min-width: 315px;
+        max-height: none;
+        width: 100%;
+        align-self: center;
+     }
+
+     .imageRules{
+        flex-basis:100%;
+        margin-bottom: 1rem;
+        align-self: center;
+        width: 100%;
+        min-width: 315px;
+        max-width: 500px;
+        min-height: 340px;
+     }
+
+     .technologiesUsed{
+        flex-wrap: wrap;
+     }
+
+     .technologiesUsed > *{
+        flex-basis: 40%;
+        flex-grow: 0;
+        text-align: center;
+        margin: .25rem;
+     }
+
+     .gitIcon{
+        position: static;
+        min-width: 145px;
+     }
+     .liveApp{
+        position: static;
+        font-size: x-large;
+        min-width: 148px;
+     }
+
+     #responsiveMore1{
+        display: block;
+        min-width: 200px;
+    }
+
+    #responsiveMore2{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 630px){
+
+    .codingContainerProjects{
+        font-size: small;
+    }
+     .project{
+        margin: 0;
+        margin-bottom: 1rem;
+     }
+
+     .imageRules{
+        border-radius: 20px;
+     }
+
+     .description{
+        border-radius: 20px;
+     }
+
+     .technologiesUsed{
+        flex-wrap: wrap;
+     }
+}
+
+
+@media (max-width: 1100px){
+    .imageRules{
+        border-radius: 20px;
+     }
+
+     .description{
+        border-radius: 20px;
+     }
+}
+
+
+@media (max-width: 500px){
+    .imageRules{
+        border-radius: 20px;
+     }
+
+     .description{
+        font-size: medium;
+     }
+}
+
+
+
+@media (max-width: 800px){
+    .exit{
+        transform: scale(1.5);
+        left: 75px;
+        bottom: 75px;
+
+    }
+    
+    .companion{
+
+        left: 48px;
+        bottom: 55px;
+
+    }
+}
