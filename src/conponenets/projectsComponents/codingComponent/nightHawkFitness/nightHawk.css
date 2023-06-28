@@ -37,8 +37,17 @@
 .lister > li{
     font-size: large;
     list-style-type: square;
+    margin-left: 1rem;
 }
 
 .lister > ul{
     margin-top: 3rem;
+}
+
+@media (max-width: 1150px){
+    .lister > li{
+        font-size: large;
+        list-style-type: square;
+        margin-left: 1.5rem;
+    }
 }

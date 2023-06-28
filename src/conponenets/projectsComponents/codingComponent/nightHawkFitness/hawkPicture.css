@@ -1,3 +1,8 @@
+.pictureHawk{
+    display: flex;
+    flex-direction: column;
+}
+
 .topHawk{
     width: 95%;
     height: calc(50vh - 82px);
@@ -52,8 +57,6 @@
 }
 
 .pictureHawk > img{
-    height: calc(50vh - 82px);
-    width: 95%;
     width: 95%;
     height: calc(60vh - 82px);
     background-size: cover;
@@ -61,4 +64,23 @@
     filter: brightness(90%);
     text-align: center;
     border: 7px solid var(--text)
+}
+
+@media (max-width: 1450px){
+    .pictureHawk > img{
+        height: 325px;
+        width: 498px;
+        align-self: center;
+    }
+    .pictureHawk{
+        height: 1600px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1450px){
+    .pictureHawk{
+        height: 1800px;
+        justify-content: space-between;
+    }
 }

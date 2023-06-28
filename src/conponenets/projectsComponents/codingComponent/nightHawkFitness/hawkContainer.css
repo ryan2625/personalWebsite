@@ -11,3 +11,12 @@
 .homeContent3{
     flex-basis: 50%;
 }
+
+
+@media (max-width: 850px){
+    .homeContainer3{
+        position: absolute;
+        top: 80px;
+    }
+    
+}

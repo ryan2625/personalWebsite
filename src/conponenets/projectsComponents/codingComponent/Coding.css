@@ -343,3 +343,14 @@
         border-radius: 20px;
      }
 }
+
+
+@media (max-width: 500px){
+    .imageRules{
+        border-radius: 20px;
+     }
+
+     .description{
+        font-size: medium;
+     }
+}
