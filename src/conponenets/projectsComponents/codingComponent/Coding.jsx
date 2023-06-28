@@ -3,7 +3,11 @@ import { NavLink } from "react-router-dom";
 import EastIcon from '@mui/icons-material/East';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import React, {useState} from "react"
 export const Coding = () =>{
+
+
+
     return<>
     <div className="codingContainerProjects">
         <div className="companion"></div>
@@ -26,14 +30,16 @@ export const Coding = () =>{
                     CRUD operations,   and is  powered by ReactJs.
                 </div>
                 <div className="technologiesUsed">
+                
                 <a href="https://github.com/AugustanaCSC490Spring23/Nighthawk-Fitness" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>
                 <a href="https://fitness-dev-2.web.app/" className="liveApp">Live App</a>
                         <h1 className="react">React</h1>  
                         <h1 className="css">CSS</h1>
                         <h1 className="javaScript">Javascript</h1>
                         <h1 className="fireBase">Firebase</h1>
+                        <NavLink to="/nightHawk" className={"liveApp"} id="responsiveMore1">Read More</NavLink>
                     </div>
-                    <NavLink to="/nightHawk" className={"naver"}><button className="readMore">Read More<EastIcon className="eastIcon"/></button></NavLink>
+                    <NavLink to="/nightHawk" className={"naver"} id="responsiveMore2"><button className="readMore">Read More<EastIcon className="eastIcon"/></button></NavLink>
            </div>
 
             <div className="project schedule">

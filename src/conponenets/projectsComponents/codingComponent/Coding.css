@@ -86,7 +86,7 @@
     padding: 2rem;
     outline: 1px solid var(--text);
     padding: 1rem;
-    margin-right: 1rem;
+    
 }
 
 .img2{
@@ -244,6 +244,10 @@
     transform: scale(.85);
 }
 
+#responsiveMore1{
+    display: none;
+}
+
 @media (max-width: 1100px){
 
     .codingContainerProjects{
@@ -261,10 +265,7 @@
         min-width: 315px;
         max-height: none;
         width: 100%;
-     }
-
-     .headers{
-
+        align-self: center;
      }
 
      .imageRules{
@@ -277,13 +278,36 @@
         min-height: 340px;
      }
 
-     .fitness{
-
-     }
-
      .technologiesUsed{
         flex-wrap: wrap;
      }
+
+     .technologiesUsed > *{
+        flex-basis: 40%;
+        flex-grow: 0;
+        text-align: center;
+        margin: .5rem;
+     }
+
+     .gitIcon{
+        position: static;
+        min-width: 150px;
+     }
+     .liveApp{
+        position: static;
+        font-size: x-large;
+        min-width: 150px;
+     }
+
+     #responsiveMore1{
+        display: block;
+
+    }
+
+    #responsiveMore2{
+        display: none;
+    }
+    
 }
 
 @media (max-width: 630px){
@@ -296,10 +320,6 @@
         margin-bottom: 1rem;
      }
 
-     .headers{
-
-     }
-
      .imageRules{
         border-radius: 20px;
      }
@@ -308,11 +328,18 @@
         border-radius: 20px;
      }
 
-     .fitness{
-
-     }
-
      .technologiesUsed{
         flex-wrap: wrap;
+     }
+}
+
+
+@media (max-width: 1100px){
+    .imageRules{
+        border-radius: 20px;
+     }
+
+     .description{
+        border-radius: 20px;
      }
 }
