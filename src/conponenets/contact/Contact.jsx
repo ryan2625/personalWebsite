@@ -11,7 +11,7 @@ export const Contacts = () =>{
   
       emailjs.sendForm('service_0imj7ux', 'template_ztal4bg', form.current, '9maxplic_lZJYMXPZ')
         .then((result) => {
-            console.log(result.text);
+            console.log("Congrats this works");
         }, (error) => {
             console.log(error.text);
         });
