@@ -237,6 +237,10 @@ h4{
 }
 
 @media (max-width: 600px){
+
+    .image{
+        border-radius: 20px;
+    }
     .homeContainer2{
         height: 1200px;
         grid-template-rows: repeat(8, 120px) 35px;
@@ -277,12 +281,13 @@ h4{
     
     .q2{
         grid-row: 3/4;
-        margin-top: 5rem;;
+        margin-top: 5.95rem;
+
     }
     
     .q3{
         grid-row: 7/8;
-        margin-top: -1.5rem;
+        margin-top: -1rem;
     }
 
     .a1{
@@ -300,16 +305,16 @@ h4{
     }
 
     .homeContainer2 :nth-child(4){
-        height: 210px;
+        height: 230px;
     }
     
     .homeContainer2 :nth-child(6){
-        height: 210px;
-        margin-top: 1rem;
+        height: 230px;
+        margin-top: 1.5rem;
     }
 
     .homeContainer2 :nth-child(2){
-        height: 160px;
+        height: 180px;
     }
 
     .button12{

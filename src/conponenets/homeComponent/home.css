@@ -27,6 +27,10 @@ body{
 }
 
 @media (max-width: 900px){
+
+    .image{
+        border-radius: 20px;
+    }
     .homeContainer{
         overflow-x: hidden;
         flex-wrap: wrap;
