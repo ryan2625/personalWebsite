@@ -11,10 +11,8 @@ import { Research } from './conponenets/projectsComponents/researchComponent/Res
 import { Coding } from './conponenets/projectsComponents/codingComponent/Coding';
 import { Nhawk } from './conponenets/projectsComponents/codingComponent/nightHawkFitness/hawkPicture';
 import { HawkContainer } from './conponenets/projectsComponents/codingComponent/nightHawkFitness/hawkContainer';
-import { inject } from '@vercel/analytics';
 function App() {
 
-  inject();
 
   return (
   <>
