@@ -38,6 +38,30 @@ export const Coding = () =>{
                     <NavLink to="/nightHawk" className={"naver"} id="responsiveMore2"><button className="readMore">Read More<EastIcon className="eastIcon"/></button></NavLink>
            </div>
 
+           <div className="project fitness ">
+        <div className="headers">
+                <h1 className="title1">
+                    Nexus Retailers
+                </h1>
+                <h3 className="date1">
+                    7/20/2023
+                    </h3>
+                </div>
+                <div className="imageRules img5"></div>
+                <div className="fontSelect description desc1"> 
+                A fully repsonsive React app created using Bootstrap and the Intersection Observer API. 
+                </div>
+                <div className="technologiesUsed">
+                
+                <a href="https://github.com/ryan2625/nexus-Cars" className="gitIcon">GitHub <GitHubIcon></GitHubIcon></a>
+                <a href="https://nexus-cars.vercel.app/" className="liveApp">Live App</a>
+                        <h1 className="react">React</h1>  
+                        <h1 className="css">CSS</h1>
+                        <h1 className="bootStrap">Bootstrap</h1>
+                        <NavLink to="/nightHawk" className={"liveApp"} id="responsiveMore1">Read More</NavLink>
+                    </div>
+           </div>
+
             <div className="project schedule">
             <div className="headers">
                 <h1 className="title1">
