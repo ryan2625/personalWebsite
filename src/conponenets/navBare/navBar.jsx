@@ -16,7 +16,7 @@ export const Navbar = () =>{
     <div className="navBar">
         <div className="header">
             <div className="firstNav">
-                <NavLink to="/">
+                <NavLink to="/" className="navlinkA">
             <div id="icon" className="icon">
                 <DashboardIcon/>
             </div>
@@ -44,16 +44,18 @@ export const Navbar = () =>{
 
         <div className= {click ? "mobileNavbar full" : "mobileNavbar cut"}>
         <div className="firstNav">
+        <NavLink to="/" className="navlinkA">
             <div id="icon" className="icon">
                 <DashboardIcon/>
             </div>
             <h2 id="name">Ryan Freas</h2>
+            </NavLink>
         </div>
         <div onClick={handleClick}
         className={click ? "menu-icon iconClosed" : "menu-icon iconOpen"}>
                 <FaBars />
             </div>
-            <ul className={click ? "navMenu active" : "nav-menu closed"}>
+            <ul className={click ? "navMenu active" : "navMenu closed"}>
                 <div className="mobileLinks">
             <FaTimes style={{transform: "scale(2.5)", margin: "1rem"}} 
                 onClick={closeMobileMenu} />
