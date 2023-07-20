@@ -16,10 +16,12 @@ export const Navbar = () =>{
     <div className="navBar">
         <div className="header">
             <div className="firstNav">
+                <NavLink to="/">
             <div id="icon" className="icon">
                 <DashboardIcon/>
             </div>
             <h2 id="name">Ryan Freas</h2>
+            </NavLink>
         </div>
         </div>
         <div className="quickLinks">
