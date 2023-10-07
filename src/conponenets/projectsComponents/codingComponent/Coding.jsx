@@ -59,7 +59,6 @@ export const Coding = () =>{
                         <h1 className="react">React</h1>  
                         <h1 className="css">CSS</h1>
                         <h1 className="bootStrap">Bootstrap</h1>
-                        <NavLink to="/nightHawk" className={"liveApp"} id="responsiveMore1">Read More</NavLink>
                     </div>
            </div>
 
