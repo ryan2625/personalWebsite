@@ -20,7 +20,7 @@ export const Navbar = () =>{
             <div id="icon" className="icon">
                 <DashboardIcon/>
             </div>
-            <h2 id="name">Ryan Freas</h2>
+            <h2 id="name">Ryan-Dev</h2>
             </NavLink>
         </div>
         </div>
@@ -48,7 +48,7 @@ export const Navbar = () =>{
             <div id="icon" className="icon">
                 <DashboardIcon/>
             </div>
-            <h2 id="name">Ryan Freas</h2>
+            <h2 id="name">Ryan-Dev</h2>
             </NavLink>
         </div>
         <div onClick={handleClick}
